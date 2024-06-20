@@ -1,0 +1,60 @@
+body {
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    height: 10%;
+    width: 100%;
+}
+
+#content {
+    height: 90%;
+    background-color:tomato;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    }
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+button {
+    background-color: chocolate;
+    border: none;
+    color: lemonchiffon;
+    height: 50%;
+    width: 10%;
+    box-shadow:0 4px 10px lime;
+}
+
+.home, .menu, .contact {
+  background-color: lemonchiffon;
+  color: chocolate; 
+  border-radius: 5px; 
+  padding: 10px; 
+  box-shadow:5px 5px 10px 0px lime;
+  width: 60%;
+  height: max-content;
+  text-align: center;
+  white-space: pre-line;
+ 
+};
+
+.picture {
+    overflow: hidden;
+    height: 50%;
+    width: 50%;
+    
+}
+
